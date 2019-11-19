@@ -6,6 +6,7 @@
 + [Solution](#solution)
 + [Service Flow](#service-flow)
 + [API](#api)
++ [Online deployed application](#online-deployed-app)
 + [Running locally](#running-in-a-local-machine)
 + [Running tests](#running-tests)
 + [Configuration](#configuration)
@@ -126,6 +127,10 @@ curl -X POST \
 #### Sample Response
 **Code** : `202 Accepted`
 
+## Online deployed app
+The service is currently deployed on an AWS Ec2 instance and is accessible via elastic beanstalk url below:
+
+http://siteminderemailservice-env.xr4amjqadv.ap-southeast-2.elasticbeanstalk.com/email/send
 
 ## Running in a local machine
 1. Clone or download the code.
