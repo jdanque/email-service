@@ -1,0 +1,17 @@
+server:
+  port : 5000
+
+logging.level.com.siteminder.emailservice : DEBUG
+
+email-service:
+  providersConfig:
+    mailgun:
+      name: mailgun
+      url: https://api.mailgun.net/v3
+      apiKey: mailgun.apikey
+    sendgrid:
+      name: sendgrid
+      url: https://api.sendgrid.com/v3/send
+      apiKey: sendgrid.apikey
+
+
